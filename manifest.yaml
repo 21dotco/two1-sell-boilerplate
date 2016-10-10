@@ -1,0 +1,16 @@
+info:
+  title: 'Hello, World!'
+  description: 'Say hello to the world!'
+  x-21-quick-buy: "$ 21 buy http://%s:%s/%s/hello"
+  x-21-category: utilities
+  x-21-app-image: "https://cdn.filepicker.io/api/file/x6J1kiKyT9WhjmbqBrAb"
+  x-21-total-price:
+    min: 5000
+    max: 5000
+  contact:
+    name: Satoshi Nakamoto
+    email: satoshi@example.com
+host: ""
+schemes:
+  - http
+basePath: /
