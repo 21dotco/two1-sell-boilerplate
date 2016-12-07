@@ -17,4 +17,4 @@ def hello():
 
 
 if __name__ == "__main__":
-    app.run(host="::", port=5000)  # each app must on port 5000 for router container to reach it successfully
+    app.run(host="::", port=5000)  # each app must run on port 5000 for router container to reach it successfully
