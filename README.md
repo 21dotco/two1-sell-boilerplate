@@ -2,7 +2,7 @@
 
 This repository contains a runnable boilerplate for a machine-payable `21 sell` container that returns the string 'Hello, world' for every `21 buy` request on its `/hello` route. If you do not have a 21 account, please go to https://21.co to sign up.
 
-Follow the steps in the "Quickstart" section to get to know the lifecycle of a `21 sell` container, then follow the examples in the "Modifying the Boilerplate" section to customize the boilerplate to your specific application.
+Go through the [21 sell tutorial](https://21.co/learn/21-sell/), and follow the steps in the "Quickstart" section below to get to know the lifecycle of a `21 sell` container. Then continue with the examples in the "Modifying the Boilerplate" section to customize the boilerplate to your specific application.
 
 # Quickstart
 
@@ -22,12 +22,14 @@ git clone git@github.com:21dotco/two1-sell-boilerplate.git
 
 ## Building, tagging, and pushing to your docker repo
 
-To build the image as `<dockerhub_username>/hello21` locally, do
+Make sure you've installed [Docker](https://www.docker.com/products/docker) on your system. To build the image as `<dockerhub_username>/hello21` locally, do
 
 ```sh
 cd two1-sell-boilerplate
 docker build -t <dockerhub_username>/hello21 .
 ```
+
+**Note:** you may need to execute the Docker commands with `sudo`.
 
 Optionally, if you have a Docker Hub account, you can upload the image so that it is available on other machines (make sure you've completed the steps [here](https://docs.docker.com/docker-hub/accounts/))
 

@@ -15,5 +15,6 @@ payment = Payment(app, Wallet())
 def hello():
     return 'Hello, world'
 
+
 if __name__ == "__main__":
-    app.run(host="::", port=5000)  # app has to run on port 5000 for 21 router container to reach it sucessfully
+    app.run(host="::", port=5000)  # each app must run on port 5000 for router container to reach it successfully
