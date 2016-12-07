@@ -2,7 +2,7 @@
 
 This repository contains a runnable boilerplate for a machine-payable `21 sell` container that returns the string 'Hello, world' for every `21 buy` request on its `/hello` route. If you do not have a 21 account, please go to https://21.co to sign up.
 
-Follow the steps in the "Quickstart" section to get to know the lifecycle of a `21 sell` container, then follow the examples in the "Modifying the Boilerplate" section to customize the boilerplate to your specific application.
+Go through the [21 sell tutorial](https://21.co/learn/21-sell/), and follow the steps in the "Quickstart" section below to get to know the lifecycle of a `21 sell` container. Then continue with the examples in the "Modifying the Boilerplate" section to customize the boilerplate to your specific application.
 
 # Quickstart
 
