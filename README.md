@@ -22,12 +22,14 @@ git clone git@github.com:21dotco/two1-sell-boilerplate.git
 
 ## Building, tagging, and pushing to your docker repo
 
-To build the image as `<dockerhub_username>/hello21` locally, do
+Make sure you've installed [Docker](https://www.docker.com/products/docker) on your system. To build the image as `<dockerhub_username>/hello21` locally, do
 
 ```sh
 cd two1-sell-boilerplate
 docker build -t <dockerhub_username>/hello21 .
 ```
+
+**Note:** you may need to execute the Docker commands with `sudo`.
 
 Optionally, if you have a Docker Hub account, you can upload the image so that it is available on other machines (make sure you've completed the steps [here](https://docs.docker.com/docker-hub/accounts/))
 
